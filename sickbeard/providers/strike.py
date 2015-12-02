@@ -96,7 +96,7 @@ class StrikeCache(tvcache.TVCache):
 
     def _getRSSData(self):
         
-        search_params = {'RSS': ['x264']}
+        search_params = {'RSS': ['x264', 'h264']}
         return {'entries': self.provider._doSearch(search_params)}
 
 provider = STRIKEProvider()
